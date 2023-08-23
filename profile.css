@@ -1,0 +1,88 @@
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: blue;
+  gap: 20px;
+  align-items: center;
+}
+nav img {
+  width: 100px;
+}
+nav select {
+  width: 55px;
+  background-color: #2874f0;
+  border: none;
+  color: white;
+}
+nav a {
+  color: white;
+}
+nav li {
+  color: white;
+}
+li span {
+  color: yellow;
+}
+nav a {
+  text-decoration: none;
+}
+.logo {
+  display: block;
+}
+.box {
+  border-radius: 5px;
+  gap: 10px;
+}
+.one {
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px 1px;
+  margin-left: 30px;
+}
+.two {
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px 1px;
+  margin-left: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 10px;
+}
+.two h4 {
+  color: gray;
+}
+.info {
+  padding: 10px 30px;
+}
+.content img {
+  width: 100%;
+}
+.footer {
+  border: 1px solid black;
+  width: 100%;
+  background-color: #172337;
+  color: white;
+  gap: 20px 0px;
+}
+.footer div {
+  display: grid;
+  grid-template-columns: repeat(4, 200px) 250px 1fr;
+}
+.hello li:hover {
+  text-decoration: underline;
+}
+.hello li {
+  padding: 5px 0px;
+}
+.hello {
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px 0px;
+}
+.bottom {
+  display: grid;
+  align-content: space-around;
+  padding: 0px 30px;
+}

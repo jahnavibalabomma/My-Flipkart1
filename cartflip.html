@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <style>
+      nav ul {
+        display: flex;
+        width: 80vw;
+        margin: auto;
+
+        align-items: center;
+      }
+      nav {
+        background-color: #2874f0;
+      }
+      li span {
+        color: yellow;
+      }
+      nav a {
+        color: white;
+      }
+      .logo {
+        display: block;
+      }
+      img {
+        width: 100px;
+      }
+      button {
+        background-color: white;
+      }
+      .btn {
+        padding: 10px 100px;
+        background-color: orangered;
+        border-radius: 5px;
+        color: white;
+        border: none;
+      }
+
+      .image1 {
+        width: 300px;
+      }
+      .first {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+      }
+      .second {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+      }
+      .first {
+        padding: 5px;
+        margin: 50px 100px 8px 100px;
+        box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 0px 2px;
+      }
+      .second {
+        padding: 30px;
+        margin: 0px 100px 50px 100px;
+        box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 2px;
+      }
+      .first,
+      .second {
+        box-sizing: border-box;
+
+        border: 1px solid white;
+      }
+      .first a {
+        text-decoration: none;
+      }
+      .third {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <nav>
+        <ul type="none">
+          <li>
+            <img
+              class="logo"
+              src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+              alt=""
+            />
+            <a href="https://www.flipkart.com/plus"
+              >Explore <span> Plus</span></a
+            >
+          </li>
+          <li>
+            <input
+              type="search"
+              placeholder="Search for products,brands and more"
+              style="width: 400px; height: 35px"
+            />
+          </li>
+          <li>
+            <button style="width: 90px; height: 30px; margin-left: 450px">
+              Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="first">
+        <h3>Flipkart</h3>
+        <h3><a href="./cart2.html">Grocery</a></h3>
+      </div>
+      <div class="second">
+        <div>
+          <img src="./cart.png" alt="" class="image1" />
+          <h3>Missing Cart items?</h3>
+          <p>Login to see the items you added previously</p>
+          <button class="btn">Login</button>
+        </div>
+      </div>
+      <hr />
+      <div class="third">
+        <p>
+          Policies:Returns Policy|Terms of use|Security|Privacy|Infringement©
+        </p>
+        <p>2007-2023 Flipkart.com</p>
+        <p>Need help? Visit the Help Center or Contact Us</p>
+      </div>
+    </form>
+  </body>
+</html>

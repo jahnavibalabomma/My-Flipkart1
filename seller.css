@@ -1,0 +1,185 @@
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 1px 2px 2px;
+  align-items: center;
+  padding: 5px;
+}
+
+nav button {
+  background-color: #ffcd00;
+  padding: 10px 20px;
+}
+nav {
+  position: sticky;
+  width: 100%;
+}
+nav li:hover {
+  color: blue;
+}
+.list1 {
+  display: none;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.689);
+  width: 250px;
+  background-color: white;
+  z-index: 1;
+  text-align: left;
+  padding: 5px 10px;
+}
+.hi:hover .list1 {
+  display: block;
+}
+
+.hi {
+  overflow: hidden;
+}
+.hi a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.list1 a {
+  color: rgb(70, 68, 68);
+  font-size: 15px;
+}
+
+.space,
+.second {
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+.first {
+  display: flex;
+}
+.image {
+  width: 70%;
+}
+.second {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 1px;
+  margin: 10px 50px 0px 50px;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  border-radius: 10px;
+}
+.second p {
+  width: 200px;
+}
+.head2 {
+  font-size: 45px;
+  padding: 20px 50px;
+}
+span {
+  color: blue;
+}
+.story {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 1px;
+  padding: 30px 0px 30px 20px;
+  border-radius: 20px;
+  justify-content: space-around;
+  margin: 30px 100px;
+  background-color: #f5fbff;
+}
+.story img {
+  border-radius: 50%;
+}
+.para {
+  width: 850px;
+  font-size: larger;
+}
+.account {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+.acc1 {
+  width: 300px;
+}
+.image1 {
+  margin-top: 50px;
+}
+.acc1 img {
+  padding-top: 10px;
+}
+.acc2 {
+  width: 400px;
+}
+.gst,
+.category,
+.product {
+  margin: 0px 80px 20px 500px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 1px;
+  padding: 10px;
+  border-radius: 10px;
+}
+/*.gstimg img {
+  padding-top: 15px;
+}*/
+.gstimg {
+  display: flex;
+  width: 700px;
+  text-align: center;
+}
+.para2 {
+  margin: 0px 100px 20px 500px;
+  font-size: 20px;
+  padding: 10px;
+}
+.product {
+  background-color: #f2faff;
+  padding: 30px;
+}
+.list,
+.prod {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list li {
+  padding: 5px 0px;
+}
+.list li:hover {
+  color: blue;
+}
+.prod p {
+  width: 300px;
+  padding: 0px 20px;
+}
+.bulb {
+  display: flex;
+  padding: 10px 20px;
+}
+.youtube {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.youtube p {
+  width: 360px;
+}
+.line1 {
+  margin: 0px 80px 20px 500px;
+}
+.para3 {
+  margin: 0px 100px 20px 500px;
+}
+.footer {
+  background-color: #3f3f3f;
+  color: white;
+}
+.footer h1 {
+  text-align: center;
+}
+.last {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer li {
+  padding: 5px;
+}
+.imagex img {
+  width: 30px;
+}
